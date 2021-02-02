@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FingerPrint Attendence System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+    <link rel="stylesheet" href="/FingerPrint Attendence System/css/style.css">
+    <!-- <link rel="stylesheet" href="/FingerPrint Attendence System/css/main.css">
+    <link rel="stylesheet" href="/FingerPrint Attendence System/css/util.css"> -->
+</head>
+
+<body>
+
+
+
+    <div class="wrapper">
+
+        <nav id="sidebar">
+
+            <div class="sidebar-header">
+                <h3>FAS</h3>
+            </div>
+            <ul class="lisst-unstyled components">
+                <li>
+                    <a href="#home">HOME</a>
+                </li>
+                <li>
+                    <a href="#profile">Profile</a>
+                </li>
+                <li>
+                    <a href="#dashboard">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Courses
+                    </a>
+                    <ul class="collapse lisst-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#addnewcourse">Add New Course</a>
+                        </li>
+                        <li>
+                            <a href="#">View Added Courses</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#viewattendance">View Attendence</a>
+                </li>
+                <li>
+                    <a href="#registration">Login/Registration</a>
+                </li>
+                <li>
+                    <a href="#settings">Settings</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Others Content Section -->
+
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                </div>
+
+                <!-- Search-box Section -->
+
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder="Type to search">
+                    <a class="search-btn" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+                </div>
+            </nav>
+            <br><br>
+            <div id="home">
+                <h2>FingerPrint Attendence System</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis beatae non asperiores magnam
+                    fugit consequuntur pariatur quas consectetur possimus dolores voluptatum delectus animi earum veritatis
+                    quos quam ad reiciendis error, consequatur quod qui voluptas? Expedita quidem sed soluta tenetur et
+                    sunt, non odio aperiam ad modi quaerat nostrum recusandae minima tempora beatae sequi id ex totam
+                    commodi alias exercitationem. Nisi, qui maiores, quaerat eaque nulla iure omnis necessitatibus facilis
+                    fugit excepturi officia distinctio sunt! Reiciendis magnam qui labore optio quaerat laudantium
+                    distinctio. Aspernatur, ea. At mollitia porro aspernatur earum fugiat sunt cupiditate, quos delectus
+                    neque dolores maiores, quibusdam molestias nam!
+                </p>
+                <div class="line"></div>
+                <h3>Words from Developers</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, totam provident voluptatum nostrum
+                    facilis quam repudiandae ex mollitia odio tempore qui modi dolorum, iste aliquam obcaecati quod rerum
+                    assumenda soluta ipsum illum est! Odio esse dolore nulla aperiam ipsam quae eum omnis, laboriosam
+                    perferendis dolorum reprehenderit saepe magnam odit nihil ab recusandae quidem ratione atque deserunt
+                    cumque exercitationem voluptatem ipsum tempore. Nobis facilis unde accusamus sequi suscipit deleniti
+                    reiciendis, optio sit omnis fugit incidunt quos hic ex rem quaerat voluptas corporis iusto architecto at
+                    natus temporibus. Magni ad eligendi totam iure repellendus labore aliquam dolor sequi, expedita porro
+                    quae earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reiciendis blanditiis culpa
+                    cumque perferendis unde harum omnis, ipsa enim dolor doloribus consequuntur dicta, a voluptas quasi
+                    neque, rem amet accusamus.
+                </p>
+            </div>
+            <!-- Profile Section -->
+
+            <div id="profile" class="bg-light">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-10 mt-5 pt-5">
+                            <div class="row z-depth-3">
+                                <div class="col-sm-4 bg-info rounded-left">
+                                    <div class="card-block text-center text-white">
+                                        <i class="fas fa-user-tie fa-7x mt-5"></i>
+                                        <h2 class="font-weight-bold mt-4">Mozaddid Babar</h2>
+                                        <p class="text-white">CSE Engineer</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8 bg-white rounded-right">
+                                    <h3 class="mt-3 text-center">Profile Info</h3>
+                                    <hr class="bg-primary mt-0 w-25">
+                                    <li><a href="#">Email</a></li>
+                                    <li><a href="#">Phone</a></li>
+                                    <li><a href="#">Total Added Courses: 2</a></li>
+                                    <li><a href="#">Change Password</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Section -->
+
+            <div id="dashboard" class="pt-5">
+                <h2>Dashboard</h2>
+                <li>
+                    <a href="#">Username</a>
+                </li>
+                <li>
+                    <a href="#">Current Course List(With Course Code & Name</a>
+                </li>
+                <br>
+                <h4>Show Other options:</h4>
+                <br>
+                <li>
+                    <a href="#">Add Course</a>
+                </li>
+                <li>
+                    <a href="#">Get Attendance List</a>
+                </li>
+                <li>
+                    <a href="#">Get and save all courses attendance list</a>
+                </li>
+                <li>
+                    <a href="#">Generate and view/save attendance marks calculated using given formula</a>
+                </li>
+                <li>
+                    <a href="#">Enroll</a>
+                </li>
+                <li>
+                    <a href="#">Sync</a>
+                </li>
+            </div>
+
+            <!-- New Course Adding Section -->
+
+            <div id="addnewcourse">
+                <br>
+                <h2>Add New Course</h2>
+                <li><a href="#">Course Code</a></li>
+                <li><a href="#"></a>Course Name (optional)</a></li>
+                <li><a href="#"></a>Session</a></li>
+                <li><a href="#"></a>Total Student</a></li>
+                <li><a href="#"></a>Add Student List File (the file should be in txt format with only 1 student id per line)</a></li>
+            </div>
+
+            <!-- Viewing Attendance Section -->
+
+            <div id="viewattendance">
+                <br>
+                <h2>Display Attendance to User</h2>
+                <br>
+                <h4>This section will be customized later.</h4>
+            </div>
+
+            <!-- Settings Section -->
+
+            <div id="settings">
+                <br>
+                <h2>Settings</h2>
+                <br>
+                <li><a href="#"></a>Theme</a></li>
+                <li><a href="#"></a>Auto Sync</a></li>
+                <li><a href="#"></a>Option to add a formula to calculate attendance marks and show/save the result in a file. (totally optional and least priority)</a></li>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+            $("#sidebarCollapse").on('click', function () {
+                $("#sidebar").toggleClass('active');
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
